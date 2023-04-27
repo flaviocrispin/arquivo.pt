@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="pt-PT"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="INTUITIVE">
+    <meta name="description" content="">
+    <title>Arquivo.pt</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="acessibilidade_arquivo.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 5.8.13, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <script type="text/javascript">
+      window.onload = function() {
+          var elementBody = document.querySelector('body');
+          var elementBtnIncreaseFont = document.getElementById('increase-font');
+          var elementBtnDecreaseFont = document.getElementById('decrease-font');
+          var increaseDecrease = 1;
+  
+          // Evento de click para aumentar a fonte
+          elementBtnIncreaseFont.addEventListener('click', function(event) {
+              increaseFontSize(increaseDecrease);
+          });
+  
+          // Evento de click para diminuir a fonte
+          elementBtnDecreaseFont.addEventListener('click', function(event) {
+              decreaseFontSize(increaseDecrease);
+          });
+  
+          function increaseFontSize(increaseDecrease) {
+              var elements = document.querySelectorAll('body *:not(.header):not(.footer)');
+              for (var i = 0; i < elements.length; i++) {
+                  var fontSize = parseInt(window.getComputedStyle(elements[i]).fontSize);
+                  elements[i].style.fontSize = (fontSize + increaseDecrease) + 'px';
+              }
+          }
+  
+          function decreaseFontSize(increaseDecrease) {
+              var elements = document.querySelectorAll('body *:not(.header):not(.footer)');
+              for (var i = 0; i < elements.length; i++) {
+                  var fontSize = parseInt(window.getComputedStyle(elements[i]).fontSize);
+                  elements[i].style.fontSize = (fontSize - increaseDecrease) + 'px';
+              }
+          }
+      }
+  </script>
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "projeto_arquivo"
+}</script>
+    <meta name="theme-color" content="#478ac9">
+    <meta property="og:title" content="acessibilidade_arquivo">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body class="u-body u-xl-mode" data-lang="pt"><header class="u-black u-clearfix u-header u-sticky u-sticky-17c9 u-header" id="sec-a7a7" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><nav class="u-menu u-menu-hamburger u-menu-1" data-responsive-from="XL" data-submenu-level="on-click">
+        <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+          <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-shadow u-custom-text-shadow-blur u-custom-text-shadow-color u-custom-text-shadow-transparency u-custom-text-shadow-x u-custom-text-shadow-y u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 11px 24px; font-size: calc(1em + 22px);">
+            <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+            <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+          </a>
+        </div>
+        <div class="u-custom-menu u-nav-container">
+          <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="https://www.arquivo.pt" style="padding: 10px 110px;">Página Inicial</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 110px;">Notícias</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/noticias/">Últimas novidades</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/noticias/canais/">Canais</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 110px;">Exemplos</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/exemplos-2/exemplos/">Páginas preservadas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/exemplos-2/colecoes/">Exposição online</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://youtu.be/noTK_wbeMC4">Testemunhos de utilizadores</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 110px;">Publicações</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/publicacoes/publicacoes-cientificas/">Publicações científicas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/publicacoes/relatorios-tecnicos/">Relatórios técnicos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://dados.gov.pt/pt/organizations/arquivo-pt-pesquise-paginas-do-passado/">Dados abertos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/publicacoes/noticias-na-comunicacao-social/">Notícias na comunicação social</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/publicacoes/audio/">Áudio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/publicacoes/videos/">Vídeos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/publicacoes/apresentacoes/">Apresentações</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 110px;">Colabore</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/colabore/premios-arquivo-pt/">Prémios Arquivo.pt</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/colabore/divulgue-o-arquivo-pt-pela-sua-comunidade/">Divulgue o Arquivo.pt</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/colabore/sugerir/">Sugerir site</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/grave-paginas-no-arquivo-pt-com-o-savepagenow/">Arquive já uma página</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/acabe-com-as-paginas-nao-encontradas-no-seu-website/">Conserte links quebrados</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/colabore/recomendacoes/">Recomendações</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/colabore/memorial/">Memorial do Arquivo.pt</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/colabore/colecoes-colaborativas/">Coleções colaborativas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/colabore/fornecimento-de-conteudos-historicos-da-web-portuguesa/">Forneça conteúdos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://github.com/arquivo/pwa-technologies/wiki/APIs">API &amp; Código aberto</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/colabore/investiga-xxi/">Investigação</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/colabore/parcerias/">Parcerias e colaborações</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 110px;">Acerca</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/acerca/catalogo-de-servicos-oferecidos-pelo-arquivo-pt/">Catálogo de serviços</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/imprensa/o-arquivo-pt-em-numeros/">Arquivo.pt em números</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/imprensa/historia/">História</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/imprensa/">Área de imprensa</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/acerca/equipa/">Equipa</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/acerca/termos-e-condicoes/">Termos e condições</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 110px;">Perguntas frequentes</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/o-que-e-o-arquivo-pt/">Informações gerais</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/recolha-e-arquivo-de-conteudos/">Recolha de conteúdos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/pesquisa/">Pesquisa de páginas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/pesquisa-avancada/">Pesquisa avançada de páginas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/ajuda-acerca-da-pesquisa-de-imagens/">Pesquisa de imagens</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/pesquisa-avancada-de-imagens/">Pesquisa avançada de imagens</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/acesso-a-conteudos-arquivados/">Acesso e pedidos de remoção</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/formacao/">Formação</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="https://sobre.arquivo.pt/pt/mapa-do-sitio/" style="padding: 10px 110px;">Mapa do sítio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="https://sobre.arquivo.pt/pt/contacto/" style="padding: 10px 110px;">Contacto</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 2px 10px 110px;">Ajuda</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/pesquisa/">Pesquisa de páginas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/ajuda-acerca-da-pesquisa-de-imagens/">Pesquisa de imagens</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/recolha-e-arquivo-de-conteudos/">Recolha</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/ajuda/acesso-a-conteudos-arquivados/">Acesso</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://arquivo.pt/forma">Formação</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/contacto/">Contacto</a>
+</li></ul>
+</div>
+</li></ul>
+        </div>
+        <div class="u-custom-menu u-nav-container-collapse">
+          <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+            <div class="u-inner-container-layout u-sidenav-overflow">
+              <div class="u-menu-close"></div>
+              <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-9"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://www.arquivo.pt">Página Inicial</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Notícias</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/noticias/">Últimas novidades</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/noticias/canais/">Canais</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Exemplos</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/exemplos-2/exemplos/">Páginas preservadas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/exemplos-2/colecoes/">Exposição online</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://youtu.be/noTK_wbeMC4">Testemunhos de utilizadores</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Publicações</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/publicacoes/publicacoes-cientificas/">Publicações científicas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/publicacoes/relatorios-tecnicos/">Relatórios técnicos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://dados.gov.pt/pt/organizations/arquivo-pt-pesquise-paginas-do-passado/">Dados abertos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/publicacoes/noticias-na-comunicacao-social/">Notícias na comunicação social</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/publicacoes/audio/">Áudio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/publicacoes/videos/">Vídeos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/publicacoes/apresentacoes/">Apresentações</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Colabore</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/colabore/premios-arquivo-pt/">Prémios Arquivo.pt</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/colabore/divulgue-o-arquivo-pt-pela-sua-comunidade/">Divulgue o Arquivo.pt</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/colabore/sugerir/">Sugerir site</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/grave-paginas-no-arquivo-pt-com-o-savepagenow/">Arquive já uma página</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/acabe-com-as-paginas-nao-encontradas-no-seu-website/">Conserte links quebrados</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/colabore/recomendacoes/">Recomendações</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/colabore/memorial/">Memorial do Arquivo.pt</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/colabore/colecoes-colaborativas/">Coleções colaborativas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/colabore/fornecimento-de-conteudos-historicos-da-web-portuguesa/">Forneça conteúdos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://github.com/arquivo/pwa-technologies/wiki/APIs">API &amp; Código aberto</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/colabore/investiga-xxi/">Investigação</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/colabore/parcerias/">Parcerias e colaborações</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Acerca</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/acerca/catalogo-de-servicos-oferecidos-pelo-arquivo-pt/">Catálogo de serviços</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/imprensa/o-arquivo-pt-em-numeros/">Arquivo.pt em números</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/imprensa/historia/">História</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/imprensa/">Área de imprensa</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/acerca/equipa/">Equipa</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/acerca/termos-e-condicoes/">Termos e condições</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Perguntas frequentes</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/o-que-e-o-arquivo-pt/">Informações gerais</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/recolha-e-arquivo-de-conteudos/">Recolha de conteúdos</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/pesquisa/">Pesquisa de páginas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/pesquisa-avancada/">Pesquisa avançada de páginas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/ajuda-acerca-da-pesquisa-de-imagens/">Pesquisa de imagens</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/pesquisa-avancada-de-imagens/">Pesquisa avançada de imagens</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/acesso-a-conteudos-arquivados/">Acesso e pedidos de remoção</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/formacao/">Formação</a>
+</li></ul>
+</div>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/mapa-do-sitio/">Mapa do sítio</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/contacto/">Contacto</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link">Ajuda</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/pesquisa/">Pesquisa de páginas</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/ajuda-acerca-da-pesquisa-de-imagens/">Pesquisa de imagens</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/recolha-e-arquivo-de-conteudos/">Recolha</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/ajuda/acesso-a-conteudos-arquivados/">Acesso</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://arquivo.pt/forma">Formação</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="https://sobre.arquivo.pt/pt/contacto/">Contacto</a>
+</li></ul>
+</div>
+</li></ul>
+            </div>
+          </div>
+          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+        </div>
+      </nav>
+      <img class="u-image u-image-default u-image-1" src="images/arquivo-logo-white.svg" alt="" data-image-width="300" data-image-height="61"><div class="u-table u-table-responsive u-table-1">
+        <table class="u-table-entity" style="width: 50%; margin-left: 1%; margin-right: auto;">
+          <colgroup>
+            <col width="15%">
+            <col width="15%">
+            <col width="25%">
+          </colgroup>
+          <tbody class="u-align-center u-table-body u-table-body-1">
+            <tr style="height: 46px;">
+              <td class="u-table-cell" style="padding-right: 1px;"><button class="u-button-style u-custom-font-sizing" button name="increase-font" id="increase-font" title="Aumentar fonte">A+</button></td>
+              <td class="u-table-cell" style="padding-right: 1px;"><button class="u-button-style u-custom-font-sizing" button name="decrease-font" id="decrease-font" title="Diminuir fonte">A-</button></td>
+              <td class="u-table-cell u-table-cell-3"><a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="https://arquivo.pt/switchlang?l=en">English</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div></header>
+
+    <section class="u-black u-clearfix u-section-2">
+      <div class="u-table u-table-responsive u-table-1">
+        <table class="u-table-entity">
+          <colgroup>
+            <col width="70%">
+            <col width="30%">
+          </colgroup>
+          <tbody class="u-table-body u-table-body-1">
+          <tr>
+            <td class="u-table-cell">
+              <form action="#" method="get" class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
+                <button class="u-search-button" type="submit">
+                <input class="u-search-input" type="search" name="search" value="" placeholder="Pesquisar páginas"></button>
+              </form>
+            </td>
+            <td class="u-table-cell">
+              <button class="u-active-none u-border-2 u-btn u-btn-round u-button-style u-hover-feature u-hover-none u-none u-btn-2" id="search-button" style="background-color: #000; color: #fff; padding: 10px;">Pesquisar</button>
+            </td>
+          </tr>
+        </table>
+      </div></div></section>
+
+      <section class="u-black u-clearfix u-section-1" id="sec-294d">
+        <div class="u-table u-table-responsive u-table-1">
+          <table class="u-table-entity">
+            <colgroup>
+              <col width="33.3%">
+              <col width="33.3%">
+              <col width="33.4%">
+            </colgroup>
+            <tbody class="u-table-body u-table-body-1">
+              <tr style="height: 55px;">
+                <td class="u-table-cell">
+                  <a class="u-active-none u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-feature u-hover-none u-none u-btn-2" href="https://www.arquivo.pt">Páginas</a>
+                </td>
+                <td class="u-table-cell">
+                  <a class="u-border-2 u-border-white u-btn u-button-style u-hover-feature u-none u-text-body-alt-color u-btn-3" href="http://www.arquivo.pt">Imagens</a>
+                </td>
+                <td class="u-table-cell">
+                  <a class="u-active-none u-border-2 u-border-white u-btn u-button-style u-hover-feature u-hover-none u-none u-text-body-alt-color u-btn-4" href="https://www.arquivo.pt">Narrativa</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+    </section>
+    <section class="u-black u-clearfix u-section-2" id="sec-b288">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h4 class="u-text u-text-1">Prémio Arquivo.pt 2023</h4>
+        <img class="u-border-2 u-border-white u-expanded-width u-image u-image-default u-image-1" src="images/premio-homepage-banner-2023-PT-min.jpg" alt="prémio arquivo.pt 2023" data-image-width="1438" data-image-height="552" data-href="www.arquivo.pt/premio2023">
+      </div>
+    </section>
+    <section class="u-black u-border-1 u-border-black u-clearfix u-section-3" id="sec-cd96">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <h4 class="u-text u-text-default u-text-1">O que é o arquivo.pt?</h4>
+                  <div class="u-border-2 u-border-white u-video u-video-contain u-video-1">
+                    <div class="embed-responsive embed-responsive-1">
+                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/EnSys0HDnCc?mute=0&amp;showinfo=1&amp;controls=1&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
+                <div class="u-container-layout u-valign-top-xs u-container-layout-2">
+                  <h4 class="u-text u-text-2">Testemunhos de utilizadores</h4>
+                  <div class="u-border-2 u-border-white u-video u-video-contain u-video-2">
+                    <div class="embed-responsive embed-responsive-2">
+                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/noTK_wbeMC4?mute=0&amp;showinfo=1&amp;controls=1&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-clearfix u-expanded-width u-gutter-14 u-layout-wrap u-layout-wrap-2">
+          <div class="u-layout">
+            <div class="u-layout-col">
+              <div class="u-size-30">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-3" data-href="https://arquivo.pt/sugerir">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-3">
+                      <h3 class="u-text u-text-default u-text-3">Sugira</h3>
+                      <p class="u-text u-text-default u-text-4">Sugira websites<span style="font-size: 1.25rem;"></span> para serem preservados
+                      </p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-4"></div>
+                  </div>
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-4" data-href="https://arquivo.pt/savepagenow">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-5">
+                      <h3 class="u-text u-text-default u-text-5">SavePage<span style="font-weight: 700;">
+                          <span style="font-weight: 400; font-style: italic;">Now</span>
+                        </span>
+                      </h3>
+                      <p class="u-text u-text-default u-text-6">Arquive<span style="font-size: 1.25rem;"></span> uma página imediatamente
+                      </p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-6"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-size-30">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-5" data-href="https://arquivo.pt/noticias">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-7">
+                      <h3 class="u-text u-text-default u-text-7">Notícias</h3>
+                      <p class="u-text u-text-default u-text-8">Fique a par das últi<span style="font-size: 1.25rem;"></span>mas noticias
+                      </p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-8"></div>
+                  </div>
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-6" data-href="https://arquivo.pt/forma">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-9">
+                      <h3 class="u-text u-text-default u-text-9">Formação</h3>
+                      <p class="u-text u-text-default u-text-10">Aprenda com<span style="font-size: 1.25rem;"></span>o preservar informação digital
+                      </p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-10"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-clearfix u-expanded-width u-gutter-14 u-layout-wrap u-layout-wrap-3">
+          <div class="u-layout">
+            <div class="u-layout-col">
+              <div class="u-size-30">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-7" data-href="https://arquivo.pt/exemplos">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-11">
+                      <h3 class="u-text u-text-default u-text-11">Exemplos</h3>
+                      <p class="u-text u-text-default u-text-12">Conheça algumas pág<span style="font-size: 1.25rem;"></span>inas preservadas
+                      </p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-12"></div>
+                  </div>
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-8" data-href="https://arquivo.pt/expos">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-13">
+                      <h3 class="u-text u-text-default u-text-13">Exposições</h3>
+                      <p class="u-text u-text-default u-text-14">Explore coleções de páginas do passado agrupadas por tema</p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-14"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="u-size-30">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-9" data-href="https://arquivo.pt/arquivo404">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-15">
+                      <h3 class="u-text u-text-default u-text-15">Arquivo404</h3>
+                      <p class="u-text u-text-default u-text-16">Acabe com as "Páginas não e<span style="font-size: 1.25rem;"></span>ncontradas" no seu website
+                      </p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-16"></div>
+                  </div>
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-10" data-href="https://arquivo.pt/memorial">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-17">
+                      <h3 class="u-text u-text-default u-text-17">Memorial</h3>
+                      <p class="u-text u-text-default u-text-18">Preserve o seu antigo website antes de o desativar</p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-18"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-clearfix u-expanded-width u-gutter-14 u-layout-wrap u-layout-wrap-4">
+          <div class="u-layout">
+            <div class="u-layout-col">
+              <div class="u-size-60">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-11" data-href="https://arquivo.pt/publica">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-valign-top u-container-layout-19">
+                      <h3 class="u-text u-text-default u-text-19">Publicações</h3>
+                      <p class="u-text u-text-default u-text-20">Artigos e relatórios acerca do Arquivo.pt</p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-20"></div>
+                  </div>
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-12" data-href="https://arquivo.pt/citationsaver">
+                    <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-21">
+                      <h3 class="u-text u-text-default u-text-21">Citation<span style="font-style: italic;">Saver</span>
+                      </h3>
+                      <p class="u-text u-text-default u-text-22">Preserve citaçõe<span style="font-size: 1.25rem;"></span>s para documentação online
+                      </p>
+                    </div>
+                    <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-22"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-black u-clearfix u-footer u-footer" id="sec-57cc"><div class="u-clearfix u-sheet u-sheet-1">
+        <img class="u-image u-image-contain u-image-default u-image-1" src="images/10-Digital_PT_4C_H_FC_MCTES.png" alt="Acessar o websítio do governo português da ciência, tecnologia e ensino superior" data-image-width="957" data-image-height="280" data-href="https://www.portugal.gov.pt/pt/gc23/area-de-governo/ciencia-tecnologia-e-ensino-superior">
+        <img class="u-image u-image-contain u-image-default u-image-2" src="images/Logo_FCCN_mono.png" alt="Acessar websítio da Fundação para a computação científica nacional" data-image-width="3508" data-image-height="2481" data-href="https://www.fccn.pt/">
+      </div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
+        <span>Website Templates</span>
+      </a>
+      <p class="u-text">
+        <span>created with</span>
+      </p>
+      <a class="u-link" href="" target="_blank">
+        <span>Website Builder Software</span>
+      </a>. 
+    </section>
+  
+</body></html>
