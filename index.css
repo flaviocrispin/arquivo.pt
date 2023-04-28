@@ -12,7 +12,7 @@
   letter-spacing: 1px;
   background-image: none;
   border-style: solid;
-  font-size: 1rem;
+  font-size: 18px;
   margin: 39px 163px 0 auto;
   padding: 4px 30px 5px;
 }
@@ -29,8 +29,8 @@
 }
 
 .u-section-1 .u-table-1 {
-  width: 468px;
-  margin: 12px auto 17px;
+  width: auto;
+  margin: 17px 3px 17px;
 }
 
 .u-block-2e92-39 {
@@ -39,6 +39,7 @@
 
 .u-section-1 .u-table-body-1 {
   font-size: 1.125rem;
+  padding: 0 1px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -88,7 +89,7 @@
   }
 
   .u-section-1 .u-table-1 {
-    margin-top: 2px;
+    margin-top: 20px;
   }
 }
 
@@ -104,27 +105,13 @@
     min-height: 190px;
   }
 
-  .u-section-1 .u-btn-1 {
-    font-size: 0.875rem;
-    font-weight: normal;
-    margin-top: 55px;
-    padding-top: 5px;
-    padding-right: 1px;
-    padding-left: 0;
-  }
-
   .u-section-1 .u-search-1 {
     height: auto;
     min-height: 38px;
     margin-top: 0;
     margin-bottom: 0;
   }
-  .u-section-1 .u-table-1 {
-    width: 325px;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 45px;
-  }
+
 
   .u-section-1 .u-table-body-1 {
     font-size: 1rem;
@@ -874,7 +861,7 @@
     width: 340px;
   }
 }
-.u-custom-font-sizing {
+.u-table-cell .u-custom-font-sizing {
   font-size: 18px;
   background-color: black;
   color: white;
@@ -924,6 +911,9 @@
 }
 
 .u-section-2 .u-table-1 {
-  width: 700px;
-  margin: 20px 350px 5px;
+  width: 400px;
+  margin: 20px 20px 10px;
+}
+.u-table-entity {
+  margin-top: -25px;
 }

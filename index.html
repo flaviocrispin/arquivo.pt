@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <title>Arquivo.pt</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="acessibilidade_arquivo.css" media="screen">
+<link rel="stylesheet" href="index.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 5.8.13, nicepage.com">
@@ -54,11 +54,12 @@
 		"name": "projeto_arquivo"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="acessibilidade_arquivo">
+    <meta property="og:title" content="Arquivo.pt">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body class="u-body u-xl-mode" data-lang="pt"><header class="u-black u-clearfix u-header u-sticky u-sticky-17c9 u-header" id="sec-a7a7" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><nav class="u-menu u-menu-hamburger u-menu-1" data-responsive-from="XL" data-submenu-level="on-click">
+  <body class="u-body u-xl-mode" data-lang="pt">
+    <header class="u-black u-clearfix u-header u-sticky u-sticky-17c9" id="sec-a7a7" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><nav class="u-menu u-menu-hamburger u-menu-1" data-responsive-from="XL" data-submenu-level="on-click">
         <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
           <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-shadow u-custom-text-shadow-blur u-custom-text-shadow-color u-custom-text-shadow-transparency u-custom-text-shadow-x u-custom-text-shadow-y u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 11px 24px; font-size: calc(1em + 22px);">
             <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
@@ -201,7 +202,8 @@
           <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
         </div>
       </nav>
-      <img class="u-image u-image-default u-image-1" src="images/arquivo-logo-white.svg" alt="" data-image-width="300" data-image-height="61"><div class="u-table u-table-responsive u-table-1">
+
+      <img class="u-image u-image-default u-image-1" src="images/arquivo-logo-white.svg" alt="Arquivo.pt" data-image-width="300" data-image-height="61"><div class="u-table u-table-responsive u-table-1">
         <table class="u-table-entity" style="width: 50%; margin-left: 1%; margin-right: auto;">
           <colgroup>
             <col width="15%">
@@ -210,16 +212,17 @@
           </colgroup>
           <tbody class="u-align-center u-table-body u-table-body-1">
             <tr style="height: 46px;">
-              <td class="u-table-cell" style="padding-right: 1px;"><button class="u-button-style u-custom-font-sizing" button name="increase-font" id="increase-font" title="Aumentar fonte">A+</button></td>
-              <td class="u-table-cell" style="padding-right: 1px;"><button class="u-button-style u-custom-font-sizing" button name="decrease-font" id="decrease-font" title="Diminuir fonte">A-</button></td>
-              <td class="u-table-cell u-table-cell-3"><a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="https://arquivo.pt/switchlang?l=en">English</a></td>
+              <td class="u-table-cell" style="padding-right: 1px;"><button name="increase-font" id="increase-font" title="Aumentar fonte" aria-label="Aumentar fonte" style="background-color: black; color: white;">A+</button></td>
+              <td class="u-table-cell" style="padding-right: 1px;"><button name="decrease-font" id="decrease-font" title="Diminuir fonte" aria-label="Aumentar fonte" style="background-color: black; color: white;">A-</button></td>
+              <td class="u-table-cell u-table-cell-3"><a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="https://arquivo.pt/switchlang?l=en" aria-label="Alterar para inglês">English</a></td>
             </tr>
           </tbody>
         </table>
-      </div></header>
+      </div>
+    </header>
 
     <section class="u-black u-clearfix u-section-2">
-      <div class="u-table u-table-responsive u-table-1">
+      <div class="u-table-1">
         <table class="u-table-entity">
           <colgroup>
             <col width="70%">
@@ -228,9 +231,9 @@
           <tbody class="u-table-body u-table-body-1">
           <tr>
             <td class="u-table-cell">
-              <form action="#" method="get" class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1">
+              <form action="#" method="get" class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1" style="margin-left: 300px;">
                 <button class="u-search-button" type="submit">
-                <input class="u-search-input" type="search" name="search" value="" placeholder="Pesquisar páginas"></button>
+                <input class="u-search-input" type="search" name="search" value="" placeholder="Pesquisar páginas ou URL" size="62px" aria-label="Pesquisar páginas ou URL"></button>
               </form>
             </td>
             <td class="u-table-cell">
@@ -238,37 +241,31 @@
             </td>
           </tr>
         </table>
-      </div></div></section>
-
-      <section class="u-black u-clearfix u-section-1" id="sec-294d">
-        <div class="u-table u-table-responsive u-table-1">
-          <table class="u-table-entity">
-            <colgroup>
-              <col width="33.3%">
-              <col width="33.3%">
-              <col width="33.4%">
-            </colgroup>
-            <tbody class="u-table-body u-table-body-1">
-              <tr style="height: 55px;">
-                <td class="u-table-cell">
-                  <a class="u-active-none u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-feature u-hover-none u-none u-btn-2" href="https://www.arquivo.pt">Páginas</a>
-                </td>
-                <td class="u-table-cell">
-                  <a class="u-border-2 u-border-white u-btn u-button-style u-hover-feature u-none u-text-body-alt-color u-btn-3" href="http://www.arquivo.pt">Imagens</a>
-                </td>
-                <td class="u-table-cell">
-                  <a class="u-active-none u-border-2 u-border-white u-btn u-button-style u-hover-feature u-hover-none u-none u-text-body-alt-color u-btn-4" href="https://www.arquivo.pt">Narrativa</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
       </div>
-      
-      
-      
-      
-      
+    </section>
+
+    <section class="u-black u-clearfix u-section-1" id="sec-294d">
+      <div class="u-table-1">
+        <table class="u-table-entity" style="margin-left: 317px;">
+
+          <tbody class="u-table-body-1">
+            <tr style="height: 40px;">
+              <td class="u-table-cell">
+                <a class="u-active-none u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-feature u-hover-none u-none u-btn-3" href="https://www.arquivo.pt" aria-label="Páginas">Páginas</a>
+              </td>
+              <td class="u-table-cell">
+                <a class="u-border-2 u-border-white u-btn u-button-style u-hover-feature u-none u-text-body-alt-color u-btn-3" href="http://www.arquivo.pt" aria-label="Imagens">Imagens</a>
+              </td>
+              <td class="u-table-cell">
+                <a class="u-active-none u-border-2 u-border-white u-btn u-button-style u-hover-feature u-hover-none u-none u-text-body-alt-color u-btn-4" href="https://www.arquivo.pt" aria-label="Narrativas">Narrativa</a>
+              </td>
+              <td class="u-table-cell">
+                <a class="u-active-none u-border-2 u-border-white u-btn u-button-style u-hover-feature u-hover-none u-none u-text-body-alt-color u-btn-4" href="https://www.arquivo.pt" aria-label="Pesquisa avançada">Pesquisa avançada</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
     <section class="u-black u-clearfix u-section-2" id="sec-b288">
       <div class="u-clearfix u-sheet u-sheet-1">
@@ -276,6 +273,7 @@
         <img class="u-border-2 u-border-white u-expanded-width u-image u-image-default u-image-1" src="images/premio-homepage-banner-2023-PT-min.jpg" alt="prémio arquivo.pt 2023" data-image-width="1438" data-image-height="552" data-href="www.arquivo.pt/premio2023">
       </div>
     </section>
+
     <section class="u-black u-border-1 u-border-black u-clearfix u-section-3" id="sec-cd96">
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
@@ -286,7 +284,7 @@
                   <h4 class="u-text u-text-default u-text-1">O que é o arquivo.pt?</h4>
                   <div class="u-border-2 u-border-white u-video u-video-contain u-video-1">
                     <div class="embed-responsive embed-responsive-1">
-                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/EnSys0HDnCc?mute=0&amp;showinfo=1&amp;controls=1&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+                      <iframe title="Vídeo de apresentação sobre o arquivo.pt" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/EnSys0HDnCc?mute=0&amp;showinfo=1&amp;controls=1&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
                     </div>
                   </div>
                 </div>
@@ -296,7 +294,7 @@
                   <h4 class="u-text u-text-2">Testemunhos de utilizadores</h4>
                   <div class="u-border-2 u-border-white u-video u-video-contain u-video-2">
                     <div class="embed-responsive embed-responsive-2">
-                      <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/noTK_wbeMC4?mute=0&amp;showinfo=1&amp;controls=1&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
+                      <iframe title="Vídeo de Testemunhos de utilizadores do arquivo.pt" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/noTK_wbeMC4?mute=0&amp;showinfo=1&amp;controls=1&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
                     </div>
                   </div>
                 </div>
@@ -309,7 +307,7 @@
             <div class="u-layout-col">
               <div class="u-size-30">
                 <div class="u-layout-row">
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-3" data-href="https://arquivo.pt/sugerir">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-3" data-href="https://arquivo.pt/sugerir" aria-label="Sugestão de websites para serem preservados">
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-3">
                       <h3 class="u-text u-text-default u-text-3">Sugira</h3>
                       <p class="u-text u-text-default u-text-4">Sugira websites<span style="font-size: 1.25rem;"></span> para serem preservados
@@ -317,13 +315,13 @@
                     </div>
                     <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-4"></div>
                   </div>
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-4" data-href="https://arquivo.pt/savepagenow">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-4" data-href="https://arquivo.pt/savepagenow" aria-label="Arquiva uma página imediatamente">
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-5">
                       <h3 class="u-text u-text-default u-text-5">SavePage<span style="font-weight: 700;">
                           <span style="font-weight: 400; font-style: italic;">Now</span>
                         </span>
                       </h3>
-                      <p class="u-text u-text-default u-text-6">Arquive<span style="font-size: 1.25rem;"></span> uma página imediatamente
+                      <p class="u-text u-text-default u-text-6">Arquive uma página imediatamente
                       </p>
                     </div>
                     <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-6"></div>
@@ -332,18 +330,18 @@
               </div>
               <div class="u-size-30">
                 <div class="u-layout-row">
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-5" data-href="https://arquivo.pt/noticias">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-5" data-href="https://arquivo.pt/noticias" aria-label="Fique a par das últimas notícias">
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-7">
                       <h3 class="u-text u-text-default u-text-7">Notícias</h3>
-                      <p class="u-text u-text-default u-text-8">Fique a par das últi<span style="font-size: 1.25rem;"></span>mas noticias
+                      <p class="u-text u-text-default u-text-8">Fique a par das últimas noticias
                       </p>
                     </div>
                     <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-8"></div>
                   </div>
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-6" data-href="https://arquivo.pt/forma">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-6" data-href="https://arquivo.pt/forma" aria-label="Aprenda como preservar informação digital">
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-9">
                       <h3 class="u-text u-text-default u-text-9">Formação</h3>
-                      <p class="u-text u-text-default u-text-10">Aprenda com<span style="font-size: 1.25rem;"></span>o preservar informação digital
+                      <p class="u-text u-text-default u-text-10">Aprenda como preservar informação digital
                       </p>
                     </div>
                     <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-10"></div>
@@ -358,15 +356,15 @@
             <div class="u-layout-col">
               <div class="u-size-30">
                 <div class="u-layout-row">
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-7" data-href="https://arquivo.pt/exemplos">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-7" data-href="https://arquivo.pt/exemplos" aria-label="Conheça algumas páginas preservadas">
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-11">
                       <h3 class="u-text u-text-default u-text-11">Exemplos</h3>
-                      <p class="u-text u-text-default u-text-12">Conheça algumas pág<span style="font-size: 1.25rem;"></span>inas preservadas
+                      <p class="u-text u-text-default u-text-12">Conheça algumas páginas preservadas
                       </p>
                     </div>
                     <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-12"></div>
                   </div>
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-8" data-href="https://arquivo.pt/expos">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-8" data-href="https://arquivo.pt/expos" aria-label="Explore coleções de páginas do passado agrupadas por tema">
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-13">
                       <h3 class="u-text u-text-default u-text-13">Exposições</h3>
                       <p class="u-text u-text-default u-text-14">Explore coleções de páginas do passado agrupadas por tema</p>
@@ -377,17 +375,17 @@
               </div>
               <div class="u-size-30">
                 <div class="u-layout-row">
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-9" data-href="https://arquivo.pt/arquivo404">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-9" role="link" data-href="https://arquivo.pt/arquivo404" aria-labelledby="Acabe com as Páginas não encontradas no seu website">
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-15">
                       <h3 class="u-text u-text-default u-text-15">Arquivo404</h3>
-                      <p class="u-text u-text-default u-text-16">Acabe com as "Páginas não e<span style="font-size: 1.25rem;"></span>ncontradas" no seu website
+                      <p class="u-text u-text-default u-text-16">Acabe com as "Páginas não encontradas" no seu website
                       </p>
                     </div>
                     <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-16"></div>
                   </div>
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-10" data-href="https://arquivo.pt/memorial">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-10" data-href="https://arquivo.pt/memorial" >
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-17">
-                      <h3 class="u-text u-text-default u-text-17">Memorial</h3>
+                      <h3 class="u-text u-text-default u-text-17" aria-label="Preserve o seu antigo website antes de o desativar">Memorial</h3>
                       <p class="u-text u-text-default u-text-18">Preserve o seu antigo website antes de o desativar</p>
                     </div>
                     <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-18"></div>
@@ -402,18 +400,18 @@
             <div class="u-layout-col">
               <div class="u-size-60">
                 <div class="u-layout-row">
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-11" data-href="https://arquivo.pt/publica">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-11" data-href="https://arquivo.pt/publica" aria-label="Artigos e relatórios acerca do Arquivo.pt">
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-valign-top u-container-layout-19">
                       <h3 class="u-text u-text-default u-text-19">Publicações</h3>
                       <p class="u-text u-text-default u-text-20">Artigos e relatórios acerca do Arquivo.pt</p>
                     </div>
                     <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-20"></div>
                   </div>
-                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-12" data-href="https://arquivo.pt/citationsaver">
+                  <div class="u-container-style u-effect-fade u-grey-75 u-hover-box u-layout-cell u-size-30 u-layout-cell-12" data-href="https://arquivo.pt/citationsaver" aria-label="Preserve citações para documentação online">
                     <div class="u-back-slide u-border-2 u-border-white u-container-layout u-container-layout-21">
                       <h3 class="u-text u-text-default u-text-21">Citation<span style="font-style: italic;">Saver</span>
                       </h3>
-                      <p class="u-text u-text-default u-text-22">Preserve citaçõe<span style="font-size: 1.25rem;"></span>s para documentação online
+                      <p class="u-text u-text-default u-text-22">Preserve citações para documentação online
                       </p>
                     </div>
                     <div class="u-black u-container-layout u-opacity u-opacity-25 u-over-slide u-container-layout-22"></div>
