@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <title>Arquivo.pt</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="index.css" media="screen">
+<link rel="stylesheet" href="style.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 5.8.13, nicepage.com">
@@ -59,7 +59,8 @@
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body class="u-body u-xl-mode" data-lang="pt">
-    <header class="u-black u-clearfix u-header u-sticky u-sticky-17c9" id="sec-a7a7" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><nav class="u-menu u-menu-hamburger u-menu-1" data-responsive-from="XL" data-submenu-level="on-click">
+    <header>
+      <nav class="u-menu u-menu-hamburger u-menu-1" data-responsive-from="XL" data-submenu-level="on-click" style="display: inline-block">
         <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
           <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-shadow u-custom-text-shadow-blur u-custom-text-shadow-color u-custom-text-shadow-transparency u-custom-text-shadow-x u-custom-text-shadow-y u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="padding: 11px 24px; font-size: calc(1em + 22px);">
             <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
@@ -68,9 +69,13 @@
           </a>
         </div>
         <div class="u-custom-menu u-nav-container">
-          <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="https://www.arquivo.pt" style="padding: 10px 110px;">Página Inicial</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 110px;">Notícias</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/noticias/">Últimas novidades</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/noticias/canais/">Canais</a>
+          <ul class="u-nav u-unstyled u-nav-1">
+            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="https://www.arquivo.pt" style="padding: 10px 110px;">Página Inicial</a>
+              </li>
+            <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 110px;">Notícias</a>
+              <div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10">
+                <li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/noticias/">Últimas novidades</a>
+                  </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/noticias/canais/">Canais</a>
 </li></ul>
 </div>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" style="padding: 10px 110px;">Exemplos</a><div class="u-nav-popup"><ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link u-white" href="https://sobre.arquivo.pt/pt/exemplos-2/exemplos/">Páginas preservadas</a>
@@ -199,74 +204,66 @@
 </li></ul>
             </div>
           </div>
-          <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
         </div>
       </nav>
-
-      <img class="u-image u-image-default u-image-1" src="images/arquivo-logo-white.svg" alt="Arquivo.pt" data-image-width="300" data-image-height="61"><div class="u-table u-table-responsive u-table-1">
-        <table class="u-table-entity" style="width: 50%; margin-left: 1%; margin-right: auto;">
-          <colgroup>
-            <col width="15%">
-            <col width="15%">
-            <col width="25%">
-          </colgroup>
-          <tbody class="u-align-center u-table-body u-table-body-1">
-            <tr style="height: 46px;">
-              <td class="u-table-cell" style="padding-right: 1px;"><button name="increase-font" id="increase-font" title="Aumentar fonte" aria-label="Aumentar fonte" style="background-color: black; color: white;">A+</button></td>
-              <td class="u-table-cell" style="padding-right: 1px;"><button name="decrease-font" id="decrease-font" title="Diminuir fonte" aria-label="Aumentar fonte" style="background-color: black; color: white;">A-</button></td>
-              <td class="u-table-cell u-table-cell-3"><a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="https://arquivo.pt/switchlang?l=en" aria-label="Alterar para inglês">English</a></td>
+      <div style="display: inline-block;"> 
+        <a href="index.html">
+        <img class="u-image-header" src="images/arquivo-logo-white.svg" alt="Arquivo.pt"></a>
+      </div>
+      <div class="u-table-header">
+        <table class="u-table-entity">
+          <tbody>
+            <tr>
+              <td><a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" name="increase-font" id="increase-font" title="Aumentar fonte" aria-label="Aumentar fonte" style="font-size: 20px;">A+</td>
+              <td><a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" name="decrease-font" id="decrease-font" title="Diminuir fonte" aria-label="Aumentar fonte" style="font-size: 20px;">A-</td>
+              <td><a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" href="https://arquivo.pt/switchlang?l=en" title="Alterar para inglês" style="font-size: 20px;">English
+                </a>
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
     </header>
 
-    <section class="u-black u-clearfix u-section-2">
-      <div class="u-table-1">
-        <table class="u-table-entity">
-          <colgroup>
-            <col width="70%">
-            <col width="30%">
-          </colgroup>
-          <tbody class="u-table-body u-table-body-1">
-          <tr>
-            <td class="u-table-cell">
-              <form action="#" method="get" class="u-border-1 u-border-grey-30 u-search u-search-left u-white u-search-1" style="margin-left: 300px;">
-                <button class="u-search-button" type="submit">
-                <input class="u-search-input" type="search" name="search" value="" placeholder="Pesquisar páginas ou URL" size="62px" aria-label="Pesquisar páginas ou URL"></button>
-              </form>
-            </td>
-            <td class="u-table-cell">
-              <button class="u-active-none u-border-2 u-btn u-btn-round u-button-style u-hover-feature u-hover-none u-none u-btn-2" id="search-button" style="background-color: #000; color: #fff; padding: 10px;">Pesquisar</button>
-            </td>
-          </tr>
-        </table>
+    <section class="u-black u-clearfix u-section-search-1">
+      <div class="u-clearfix u-sheet u-sheet-1">
+
+        <form action="#" method="get" class="u-border-1 u-border-grey-30 u-expanded-width u-search u-search-left u-white u-search-1">
+          <button class="u-search-button" type="submit">
+            <span class="u-border-2 u-border-palette-1-base u-icon-circle u-search-icon u-spacing-10 u-search-icon-1">
+              <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 56.966 56.966"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-2fb5"></use></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg-2fb5" x="0px" y="0px" viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve" class="u-svg-content"><path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23  s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92  c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17  s-17-7.626-17-17S14.61,6,23.984,6z"></path></svg>
+            </span>
+          </button>
+          <input class="u-search-input" type="search" name="search" value="" placeholder="Procurar páginas ou URL">
+        </form>
+
       </div>
     </section>
-
-    <section class="u-black u-clearfix u-section-1" id="sec-294d">
-      <div class="u-table-1">
-        <table class="u-table-entity" style="margin-left: 317px;">
-
-          <tbody class="u-table-body-1">
-            <tr style="height: 40px;">
-              <td class="u-table-cell">
-                <a class="u-active-none u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-feature u-hover-none u-none u-btn-3" href="https://www.arquivo.pt" aria-label="Páginas">Páginas</a>
-              </td>
-              <td class="u-table-cell">
-                <a class="u-border-2 u-border-white u-btn u-button-style u-hover-feature u-none u-text-body-alt-color u-btn-3" href="http://www.arquivo.pt" aria-label="Imagens">Imagens</a>
-              </td>
-              <td class="u-table-cell">
-                <a class="u-active-none u-border-2 u-border-white u-btn u-button-style u-hover-feature u-hover-none u-none u-text-body-alt-color u-btn-4" href="https://www.arquivo.pt" aria-label="Narrativas">Narrativa</a>
-              </td>
-              <td class="u-table-cell">
-                <a class="u-active-none u-border-2 u-border-white u-btn u-button-style u-hover-feature u-hover-none u-none u-text-body-alt-color u-btn-4" href="pesquisa_avancada1.html" aria-label="Pesquisa avançada">Pesquisa avançada</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+    <section class="u-section-search">
+      <div>
+      <table>
+        <tr>
+          <td>
+            <a class="u-btn u-button-style" href="https://www.arquivo.pt" aria-label="Páginas">Páginas</a>
+          </td>
+          <td >
+            <a class="u-btn u-button-style" href="http://www.arquivo.pt" aria-label="Imagens">Imagens</a>
+          </td>
+          <td>
+            <a class="u-btn u-button-style" href="https://www.arquivo.pt" aria-label="Narrativas">Narrativa</a>
+          </td>
+          <td>
+            <a class="u-btn u-button-style" href="pesquisa_avancada1.html" aria-label="Pesquisa avançada">Pesquisa avançada</a>
+          </td>
+        </tr>
+      </table>
       </div>
+
+
+
     </section>
+
     <section class="u-black u-clearfix u-section-1" id="sec-b288">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h4 class="u-text u-text-1">Prémio Arquivo.pt 2023</h4>
@@ -289,11 +286,11 @@
                   </div>
                 </div>
               </div>
-              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                <div class="u-container-layout u-valign-top-xs u-container-layout-2">
-                  <h4 class="u-text u-text-2">Testemunhos de utilizadores</h4>
-                  <div class="u-border-2 u-border-white u-video u-video-contain u-video-2">
-                    <div class="embed-responsive embed-responsive-2">
+              <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-valign-top-xs u-container-layout-1">
+                  <h4 class="u-text u-text-default u-text-1">Testemunhos de utilizadores</h4>
+                  <div class="u-border-2 u-border-white u-video u-video-contain u-video-1">
+                    <div class="embed-responsive embed-responsive-1">
                       <iframe title="Vídeo de Testemunhos de utilizadores do arquivo.pt" style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" class="embed-responsive-item" src="https://www.youtube.com/embed/noTK_wbeMC4?mute=0&amp;showinfo=1&amp;controls=1&amp;start=0" frameborder="0" allowfullscreen=""></iframe>
                     </div>
                   </div>
