@@ -1,2 +1,6 @@
 # arquivo.pt
-Repositório prêmio arquivo.pt
+O projeto Acessibilidade Arquivo.pt foi desenvolvido com o objetivo de tornar o rico patrimônio do Arquivo.pt mais acessível para a comunidade em geral, especialmente para pessoas com baixa visão e autismo. A acessibilidade é uma questão cada vez mais importante e deve ser considerada em todos os projetos digitais, a fim de garantir que todos tenham acesso igualitário à informação e aos serviços disponíveis na internet.
+Em Portugal, de acordo com o Instituto Nacional de Estatística, cerca de 9% da população tem algum tipo de deficiência visual, o que reforça ainda mais a importância de projetos como o Acessibilidade Arquivo.pt. É preciso garantir que todos possam ter acesso à cultura, história e informações disponíveis no Arquivo.pt, e para isso é fundamental tornar o site acessível a todos.
+A POC do Acessibilidade Arquivo.pt envolveu a alteração de duas páginas do site, a página inicial e a de pesquisa avançada, tornando-as mais acessíveis para pessoas com baixa visão e autismo. Essa iniciativa demonstra o compromisso do Arquivo.pt com a inclusão e acessibilidade digital, e é um exemplo a ser seguido por outros projetos na área da cultura e história.
+O patrimônio do Arquivo.pt é de grande valor histórico e cultural, e deve ser preservado e disponibilizado para a sociedade em geral. A acessibilidade é um fator chave para garantir que todos possam usufruir desse patrimônio, e projetos como o Acessibilidade Arquivo.pt são fundamentais para tornar isso possível.
+
